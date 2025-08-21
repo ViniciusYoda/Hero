@@ -8,7 +8,6 @@ class Funcionario {
     private sobrenome: string,
     private titulo: string,
   ) {
-    // nome classe + nome propriedade
     Funcionario.contratacoes++;
   }
 }
@@ -33,13 +32,13 @@ class Funcionario_01 {
   }
 }
 
-const funcionario_01 = new Funcionario_01(
+const funcionario_03 = new Funcionario_01(
   'Glaucia',
   'Lemos',
   'Developer Advocate',
 );
 
-const funcionario_02 = new Funcionario_01('Jurema', 'Lemos', 'Professora');
+const funcionario_04 = new Funcionario_01('Jurema', 'Lemos', 'Professora');
 
 console.log(Funcionario_01.retornarContratacoes());
 
